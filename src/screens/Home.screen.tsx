@@ -14,6 +14,7 @@ import {
 import { StorySummaryFields } from '../graphql/fragments';
 import { Story } from '../components/Story';
 
+// STORIES_QUERY
 const STORIES_QUERY = gql`
   query AllStories {
     stories {
